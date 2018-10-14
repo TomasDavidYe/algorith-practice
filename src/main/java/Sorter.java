@@ -17,7 +17,15 @@ public class Sorter<T> {
 
   public T[] bubbleSort(T[] input){
     T[] result = input.clone();
-    //To be implemented
+    for(int k = 0; k < result.length; k++){
+      for(int i = result.length -1; i > k; i--){
+        if(!order.isLessOrEqualThen(result[i-1], result[i])){
+          T temp = result[i-1];
+          result[i-1] = result[i];
+          result[i] = temp;
+        }
+      }
+    }
     return result;
   }
 

@@ -20,6 +20,11 @@ public class SorterTest {
     assertArraysEqual(expectedRevertedArray, sorter.revert(inputArray));
   }
 
+  @Test
+  public void bubbleSortTest(){
+    assertArraysEqual(expectedSortedArray,sorter.bubbleSort(inputArray));
+  }
+
   private <T> void assertArraysEqual(T[] expected, T[] actual){
     int length = expected.length;
     for(int i = 0; i < length; i++){

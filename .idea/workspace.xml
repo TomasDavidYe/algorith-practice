@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f09e40-1b41-44ff-9bab-5ba4e8b380ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SorterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbstractOrdering.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SorterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,30 +21,32 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Sorter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sorter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SorterTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SorterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+            <state relative-caret-position="360">
+              <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#489#490#0" expanded="true" />
                 <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +69,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SorterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sorter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SorterTest.java" />
       </list>
     </option>
   </component>
@@ -162,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SorterTest">
+  <component name="RunManager" selected="JUnit.SorterTest.bubbleSortTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -262,9 +259,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SorterTest.bubbleSortTest" />
         <item itemvalue="JUnit.SorterTest" />
         <item itemvalue="JUnit.SorterTest.revertTest" />
-        <item itemvalue="JUnit.SorterTest.bubbleSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -282,15 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SorterTest_revertTest - 2018.10.13 at 12h 13m 53s.xml">
-      <configuration name="SorterTest.revertTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_revertTest - 2018.10.13 at 12h 14m 17s.xml">
-      <configuration name="SorterTest.revertTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_revertTest - 2018.10.13 at 12h 14m 47s.xml">
-      <configuration name="SorterTest.revertTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SorterTest_revertTest - 2018.10.13 at 12h 14m 59s.xml">
       <configuration name="SorterTest.revertTest" configurationId="JUnit" />
     </history-entry>
@@ -311,6 +299,15 @@
     </history-entry>
     <history-entry file="SorterTest - 2018.10.13 at 12h 17m 22s.xml">
       <configuration name="SorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_bubbleSortTest - 2018.10.14 at 17h 08m 07s.xml">
+      <configuration name="SorterTest.bubbleSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest - 2018.10.14 at 17h 08m 34s.xml">
+      <configuration name="SorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_bubbleSortTest - 2018.10.14 at 17h 08m 40s.xml">
+      <configuration name="SorterTest.bubbleSortTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -364,27 +361,29 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SorterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        <state relative-caret-position="360">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sorter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
           <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
       </provider>
