@@ -29,6 +29,31 @@ public class Sorter<T> {
     return result;
   }
 
+  public T[] selectSort(T[] input){
+    T[] result = input.clone();
+    for(int k = 0; k < result.length; k++){
+      int minIndex = k;
+      T minimum = result[k];
+      for(int i = k + 1; i < result.length; i++){
+        if(!order.isLessOrEqualThen(minimum, result[i])){
+          minimum = result[i];
+          minIndex = i;
+        }
+      }
+      T temp = result[k];
+      result[k] = result[minIndex];
+      result[minIndex] = temp;
+    }
+
+    return result;
+  }
+
+  public T[] inserSort(T[] input){
+    T[] result = input.clone();
+    //to be implemented
+    return result;
+  }
+
   public T[] sortDescending(T[] input, Function<T[],T[]> implementation){
     return revert(implementation.apply(input));
   }

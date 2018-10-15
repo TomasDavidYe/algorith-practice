@@ -1,0 +1,22 @@
+Bubble-Sort
+Description = we find let the minimum bubble its way through the array to the begining of the list.
+We repeat this process on the remaining array not counting the already found minimums.
+Complexity = O(n^2)
+Pros = Simple and easy to write into code
+Cons = time complexity is high
+
+Select-Sort
+Description = we start with an unsorted array and create an empty list. We find the minimum
+of the list, remove it from the array and put it in the beginning of the new list.
+We repeat the process on the sublist formed by removing the least element, extracting the
+next minimum and placing it in the new list
+Complexity = O(n^2)
+Pros = intuitive, simple and easy to write, in most cases better than bubble sort, in some cases better than the fancier algorithms
+like quick-sort and merge-sort
+Cons = worst case time complexity is high and is slow on big inputs compared to heap-sort, merge-sort
+
+Insert-sort
+description =
+Complexity = O(n^2)
+Pros = simple implementation, in most cases faster than bubble-sort and select-sort
+Cons = on large datasets it is vastly outperformed by merge-sort, heap-sort, quick-sort
