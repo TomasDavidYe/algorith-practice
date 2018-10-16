@@ -19,7 +19,7 @@ public class Sorter<T> {
     T[] result = input.clone();
     for(int k = 0; k < result.length; k++){
       for(int i = result.length -1; i > k; i--){
-        if(!order.isLessOrEqualThen(result[i-1], result[i])){
+        if(!order.lessThanOrEqualTo(result[i-1], result[i])){
           T temp = result[i-1];
           result[i-1] = result[i];
           result[i] = temp;
@@ -35,7 +35,7 @@ public class Sorter<T> {
       int minIndex = k;
       T minimum = result[k];
       for(int i = k + 1; i < result.length; i++){
-        if(!order.isLessOrEqualThen(minimum, result[i])){
+        if(!order.lessThanOrEqualTo(minimum, result[i])){
           minimum = result[i];
           minIndex = i;
         }
@@ -48,9 +48,17 @@ public class Sorter<T> {
     return result;
   }
 
-  public T[] inserSort(T[] input){
+  public T[] insertSort(T[] input){
     T[] result = input.clone();
-    //to be implemented
+    for(int k = 1; k < result.length; k++){
+      for(int i = k; i > 0; i--){
+        if(!order.lessThanOrEqualTo(result[i-1],result[i])){
+          T temp = result[i-1];
+          result[i-1] = result[i];
+          result[i] = temp;
+        }
+      }
+    }
     return result;
   }
 
@@ -63,7 +71,7 @@ public class Sorter<T> {
 
 
 interface Ordering<T>{
-  boolean isLessOrEqualThen(T object1, T object2);
+  boolean lessThanOrEqualTo(T object1, T object2);
 }
 
 

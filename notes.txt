@@ -15,8 +15,13 @@ Pros = intuitive, simple and easy to write, in most cases better than bubble sor
 like quick-sort and merge-sort
 Cons = worst case time complexity is high and is slow on big inputs compared to heap-sort, merge-sort
 
-Insert-sort
-description =
+Insert-Sort
+description = We build the list from behind, taking each element and inserting it into its position in the already sorted sublist
 Complexity = O(n^2)
 Pros = simple implementation, in most cases faster than bubble-sort and select-sort
 Cons = on large datasets it is vastly outperformed by merge-sort, heap-sort, quick-sort
+
+These three algorithms are easy to understand and the sorting takes place within the same array meaning no additional memory allocation is
+necessary
+
+Quick-Sort
