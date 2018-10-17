@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f09e40-1b41-44ff-9bab-5ba4e8b380ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SorterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/algorithm-practice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/algorithm-practice-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SorterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SorterTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SorterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SorterTest.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +25,8 @@
       <file leaf-file-name="Sorter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+            <state relative-caret-position="317">
+              <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3342#3343#0" expanded="true" />
@@ -44,8 +39,8 @@
       <file leaf-file-name="notes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="450">
+              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -53,8 +48,8 @@
       <file leaf-file-name="SorterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="412">
+              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +74,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
-        <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Sorter.java" />
+        <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/src/test/java/SorterTest.java" />
       </list>
     </option>
@@ -152,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SorterTest.quickSortTest">
+  <component name="RunManager" selected="JUnit.SorterTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -288,8 +283,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SorterTest.quickSortTest" />
         <item itemvalue="JUnit.SorterTest" />
+        <item itemvalue="JUnit.SorterTest.quickSortTest" />
         <item itemvalue="JUnit.SorterTest.equalArrayTest" />
         <item itemvalue="JUnit.SorterTest.lesserArrayTest" />
         <item itemvalue="JUnit.SorterTest.greaterArrayTest" />
@@ -310,35 +305,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SorterTest - 2018.10.17 at 23h 22m 28s.xml">
-      <configuration name="SorterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_lesserArrayTest - 2018.10.17 at 23h 22m 38s.xml">
-      <configuration name="SorterTest.lesserArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_lesserArrayTest - 2018.10.17 at 23h 22m 56s.xml">
-      <configuration name="SorterTest.lesserArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_equalArrayTest - 2018.10.17 at 23h 23m 05s.xml">
-      <configuration name="SorterTest.equalArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 23m 12s.xml">
-      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 23m 31s.xml">
-      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 24m 24s.xml">
-      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest - 2018.10.17 at 23h 25m 55s.xml">
-      <configuration name="SorterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest - 2018.10.17 at 23h 26m 25s.xml">
-      <configuration name="SorterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 26m 41s.xml">
       <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 35m 09s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 37m 50s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 38m 22s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 41m 04s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 41m 53s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 43m 18s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 43m 40s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 44m 39s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest - 2018.10.17 at 23h 45m 21s.xml">
+      <configuration name="SorterTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -347,14 +342,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900944" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32900944" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -424,17 +419,10 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        <state relative-caret-position="317">
+          <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3342#3343#0" expanded="true" />
@@ -443,10 +431,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="412">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

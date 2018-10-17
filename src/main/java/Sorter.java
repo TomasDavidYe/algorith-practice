@@ -65,8 +65,15 @@ public class Sorter<T> {
 
 
   public T[] quickSort(T[] input){
-    //to be implemented
-    return null;
+    T[] result = input.clone();
+    if(result.length <= 1 || isConstant(result)) return result;
+    final T pivot = result[0];
+    T[] greaterPart = greaterPart(result,pivot);
+    T[] lesserPart = lesserPart(result,pivot);
+    T[] equalPart = equalPart(result,pivot);
+    greaterPart = quickSort(greaterPart);
+    lesserPart = quickSort(lesserPart);
+    return concatenateArrays(concatenateArrays(lesserPart,equalPart),greaterPart);
   }
 
   //quick sort helper methods beginning

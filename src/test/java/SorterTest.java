@@ -31,9 +31,9 @@ public class SorterTest {
     assertWithImplementation("Insert-Sort Test: ", sorter::insertSort, expectedSortedArray);
   }
 
- // @Test
+  @Test
   public void quickSortTest() throws Exception {
-    assertWithImplementation("Quick-Sort Test: ", sorter::quickSort, expectedSortedArray);
+    assertWithImplementation("Quick-Sort Tesk: ", sorter::quickSort, expectedSortedArray);
   }
 
   @Test
@@ -71,14 +71,13 @@ public class SorterTest {
 
   private void assertWithImplementation(String description, Function<Integer[], Integer[]> implementation, Integer[] expected) throws Exception {
     System.out.println(description);
-    Integer[] actualSortedArrray = implementation.apply(inputArray);
     System.out.println("Input Array: ");
     printer.printArray(inputArray);
     System.out.println("Expected Array: ");
     printer.printArray(expected);
     System.out.println("Actual Array: ");
-    printer.printArray(actualSortedArrray);
-    assertArraysEqual(expected, actualSortedArrray);
+    printer.printArray(implementation.apply(inputArray));
+    assertArraysEqual(expected, implementation.apply(inputArray));
     System.out.println();
     System.out.println();
   }

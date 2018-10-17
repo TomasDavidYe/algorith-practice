@@ -25,3 +25,10 @@ These three algorithms are easy to understand and the sorting takes place within
 necessary
 
 Quick-Sort
+Description = we pick a random element, pivot, and divide the input array into three smaller arrays.
+First array is of elements smaller than pivot, Than array full of elements equal to pivot and finally the
+elements greater than pivot. We call recursively the method on the lesser and greater arrays and
+return [sorted(lesserArray), equalArray, sorted(greaterArray)]
+Complexity = O(n*logn) (avarage time complexity, assuming we can find median linearly)
+Pros = fast
+Cons = harder to implement from basic data structures
