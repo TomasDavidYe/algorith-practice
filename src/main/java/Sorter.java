@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.function.Function;
 
 public class Sorter<T> {
@@ -62,8 +63,78 @@ public class Sorter<T> {
     return result;
   }
 
+
+  public T[] quickSort(T[] input){
+    //to be implemented
+    return null;
+  }
+
+  //quick sort helper methods beginning
+
+  public boolean isConstant(T[] array){
+    T firstValue = array[0];
+    for(int i = 1; i < array.length; i++){
+      if(firstValue != array[i]) return false;
+    }
+    return true;
+  }
+
+  public T[] equalPart(T[] array, T pivot){
+    int equalArrayLength = (int) Arrays.stream(array).filter(x -> x.equals(pivot)).count();
+    T[] result = blankArray(equalArrayLength);
+    int equalArrayIndex = 0;
+    for(int i  = 0; i < array.length; i++){
+      if(array[i].equals(pivot)){
+        result[equalArrayIndex] = array[i];
+        equalArrayIndex++;
+      }
+    }
+    return result;
+  }
+
+  public T[] lesserPart(T[] array, T pivot){
+    int lesserArrayLength = (int) Arrays.stream(array).filter(x -> order.lessThanOrEqualTo(x,pivot) && !x.equals(pivot)).count();
+    T[] result = blankArray(lesserArrayLength);
+    int lesserArrayIndex = 0;
+    for(int i = 0; i < array.length; i++){
+      if(order.lessThanOrEqualTo(array[i],pivot) && !array[i].equals(pivot)){
+        result[lesserArrayIndex] = array[i];
+        lesserArrayIndex++;
+      }
+    }
+    return result;
+  }
+
+  public T[] greaterPart(T[] array, T pivot){
+    int greaterArrayLength = (int) Arrays.stream(array).filter(x -> !order.lessThanOrEqualTo(x,pivot)).count();
+    T[] result = blankArray(greaterArrayLength);
+    int greaterArrayIndex = 0;
+    for(int i = 0; i < array.length; i++){
+      if(!order.lessThanOrEqualTo(array[i],pivot)){
+        result[greaterArrayIndex] = array[i];
+        greaterArrayIndex++;
+      }
+    }
+    return result;
+  }
+
+  public T[] concatenateArrays(T[] firstArray, T[] secondArray){
+    T[] temp = blankArray(firstArray.length + secondArray.length);
+    for(int i = 0; i < firstArray.length; i++) temp[i] = firstArray[i];
+    for(int j = firstArray.length; j < firstArray.length + secondArray.length; j++) temp[j] = secondArray[j - firstArray.length];
+    return temp;
+  }
+  //quick sort helper methods end
+
+
   public T[] sortDescending(T[] input, Function<T[],T[]> implementation){
     return revert(implementation.apply(input));
+  }
+
+  public T[] blankArray(int length){
+    Object[] result = new Object[length];
+    for(int i = 0; i < length; i++) result[i] = null;
+    return (T[])result;
   }
 
 

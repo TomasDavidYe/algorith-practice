@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d4f09e40-1b41-44ff-9bab-5ba4e8b380ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/algorithm-practice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/algorithm-practice-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SorterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SorterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SorterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SorterTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SorterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SorterTest.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +30,12 @@
       <file leaf-file-name="Sorter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+            <state relative-caret-position="192">
+              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
               <folding>
-                <element signature="e#1519#1520#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3342#3343#0" expanded="true" />
+                <element signature="e#3394#3395#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,18 +53,10 @@
       <file leaf-file-name="SorterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="119">
+              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,10 +97,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SorterTest">
+  <component name="RunManager" selected="JUnit.SorterTest.quickSortTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -178,13 +173,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SorterTest.bubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SorterTest.equalArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmPractice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SorterTest" />
-      <option name="METHOD_NAME" value="bubbleSortTest" />
+      <option name="METHOD_NAME" value="equalArrayTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -195,13 +190,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SorterTest.insertSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SorterTest.greaterArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmPractice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SorterTest" />
-      <option name="METHOD_NAME" value="insertSortTest" />
+      <option name="METHOD_NAME" value="greaterArrayTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -212,13 +207,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SorterTest.revertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SorterTest.lesserArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmPractice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SorterTest" />
-      <option name="METHOD_NAME" value="revertTest" />
+      <option name="METHOD_NAME" value="lesserArrayTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -229,13 +224,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SorterTest.selectSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SorterTest.quickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmPractice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SorterTest" />
-      <option name="METHOD_NAME" value="selectSortTest" />
+      <option name="METHOD_NAME" value="quickSortTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -285,19 +280,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SorterTest.bubbleSortTest" />
-      <item itemvalue="JUnit.SorterTest.revertTest" />
+      <item itemvalue="JUnit.SorterTest.lesserArrayTest" />
+      <item itemvalue="JUnit.SorterTest.greaterArrayTest" />
       <item itemvalue="JUnit.SorterTest" />
-      <item itemvalue="JUnit.SorterTest.selectSortTest" />
-      <item itemvalue="JUnit.SorterTest.insertSortTest" />
+      <item itemvalue="JUnit.SorterTest.quickSortTest" />
+      <item itemvalue="JUnit.SorterTest.equalArrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SorterTest.quickSortTest" />
         <item itemvalue="JUnit.SorterTest" />
-        <item itemvalue="JUnit.SorterTest.insertSortTest" />
-        <item itemvalue="JUnit.SorterTest.selectSortTest" />
-        <item itemvalue="JUnit.SorterTest.bubbleSortTest" />
-        <item itemvalue="JUnit.SorterTest.revertTest" />
+        <item itemvalue="JUnit.SorterTest.equalArrayTest" />
+        <item itemvalue="JUnit.SorterTest.lesserArrayTest" />
+        <item itemvalue="JUnit.SorterTest.greaterArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -315,39 +310,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SorterTest_selectSortTest - 2018.10.15 at 07h 55m 01s.xml">
-      <configuration name="SorterTest.selectSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_selectSortTest - 2018.10.15 at 07h 55m 19s.xml">
-      <configuration name="SorterTest.selectSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest - 2018.10.16 at 06h 43m 04s.xml">
+    <history-entry file="SorterTest - 2018.10.17 at 23h 22m 28s.xml">
       <configuration name="SorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SorterTest - 2018.10.16 at 06h 43m 43s.xml">
+    <history-entry file="SorterTest_lesserArrayTest - 2018.10.17 at 23h 22m 38s.xml">
+      <configuration name="SorterTest.lesserArrayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_lesserArrayTest - 2018.10.17 at 23h 22m 56s.xml">
+      <configuration name="SorterTest.lesserArrayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_equalArrayTest - 2018.10.17 at 23h 23m 05s.xml">
+      <configuration name="SorterTest.equalArrayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 23m 12s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 23m 31s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 24m 24s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SorterTest - 2018.10.17 at 23h 25m 55s.xml">
       <configuration name="SorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SorterTest_insertSortTest - 2018.10.16 at 06h 44m 42s.xml">
-      <configuration name="SorterTest.insertSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_insertSortTest - 2018.10.16 at 06h 54m 11s.xml">
-      <configuration name="SorterTest.insertSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_insertSortTest - 2018.10.16 at 06h 55m 13s.xml">
-      <configuration name="SorterTest.insertSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest_insertSortTest - 2018.10.16 at 06h 59m 49s.xml">
-      <configuration name="SorterTest.insertSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SorterTest - 2018.10.16 at 07h 00m 53s.xml">
+    <history-entry file="SorterTest - 2018.10.17 at 23h 26m 25s.xml">
       <configuration name="SorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SorterTest - 2018.10.16 at 07h 02m 52s.xml">
-      <configuration name="SorterTest" configurationId="JUnit" />
+    <history-entry file="SorterTest_quickSortTest - 2018.10.17 at 23h 26m 41s.xml">
+      <configuration name="SorterTest.quickSortTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -359,8 +354,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32900944" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -369,7 +364,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39834026" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -383,7 +378,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -403,14 +398,6 @@
           <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -420,8 +407,9 @@
         <state relative-caret-position="720">
           <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
           <folding>
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3342#3343#0" expanded="true" />
+            <element signature="e#3394#3395#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -445,29 +433,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+        <state relative-caret-position="192">
+          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
           <folding>
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3342#3343#0" expanded="true" />
+            <element signature="e#3394#3395#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>

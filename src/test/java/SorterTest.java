@@ -1,9 +1,5 @@
-import static org.junit.Assert.*;
-
-import java.util.List;
 import java.util.function.Function;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class SorterTest {
@@ -16,27 +12,64 @@ public class SorterTest {
 
 
   @Test
-  public void revertTest() {
+  public void revertTest() throws Exception {
     assertWithImplementation("Revert array Test: ", sorter::revert, expectedRevertedArray);
   }
 
   @Test
-  public void bubbleSortTest() {
+  public void bubbleSortTest() throws Exception {
     assertWithImplementation("Bubble-Sort", sorter::bubbleSort, expectedSortedArray);
   }
 
   @Test
-  public void selectSortTest() {
+  public void selectSortTest() throws Exception {
     assertWithImplementation("Select-Sort Test: ", sorter::selectSort, expectedSortedArray);
   }
 
   @Test
-  public void insertSortTest() {
+  public void insertSortTest() throws Exception {
     assertWithImplementation("Insert-Sort Test: ", sorter::insertSort, expectedSortedArray);
   }
 
+ // @Test
+  public void quickSortTest() throws Exception {
+    assertWithImplementation("Quick-Sort Test: ", sorter::quickSort, expectedSortedArray);
+  }
 
-  private void assertWithImplementation(String description, Function<Integer[], Integer[]> implementation, Integer[] expected) {
+  @Test
+  public void concatenateTest() throws Exception {
+    Integer[] array1 = {1,2,3};
+    Integer[] array2 = {4,5,6};
+    Integer[] result = {1,2,3,4,5,6};
+    assertArraysEqual(result, sorter.concatenateArrays(array1,array2));
+  }
+
+  @Test
+  public void lesserArrayTest() throws Exception {
+    Integer[] array = {1,3,5,2,1,1,4,5,6,7,8,2,3};
+    int pivot = 3;
+    Integer[] expectedLowerArray = {1,2,1,1,2};
+    assertArraysEqual(expectedLowerArray, sorter.lesserPart(array,pivot));
+  }
+
+  @Test
+  public void greaterArrayTest() throws Exception {
+    Integer[] array = {1,3,5,2,1,1,4,5,6,7,8,2,3};
+    int pivot = 3;
+    Integer[] expectedUpperArray = {5,4,5,6,7,8};
+    assertArraysEqual(expectedUpperArray,sorter.greaterPart(array,pivot));
+  }
+
+  @Test
+  public void equalArrayTest() throws Exception{
+    Integer[] array = {1,3,5,2,1,1,4,5,6,7,8,2,3};
+    int pivot = 3;
+    Integer[] expectedEqualArray = {3,3};
+    assertArraysEqual(expectedEqualArray,sorter.equalPart(array,pivot));
+  }
+
+
+  private void assertWithImplementation(String description, Function<Integer[], Integer[]> implementation, Integer[] expected) throws Exception {
     System.out.println(description);
     Integer[] actualSortedArrray = implementation.apply(inputArray);
     System.out.println("Input Array: ");
@@ -50,7 +83,8 @@ public class SorterTest {
     System.out.println();
   }
 
-  private <T> void assertArraysEqual(T[] expected, T[] actual) {
+  private <T> void assertArraysEqual(T[] expected, T[] actual) throws Exception {
+    if(expected.length != actual.length) throw new Exception("Compared arrays do not have the same size");
     int length = expected.length;
     for (int i = 0; i < length; i++) {
       Assert.assertEquals(expected[i], actual[i]);
