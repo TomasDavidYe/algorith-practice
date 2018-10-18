@@ -1,3 +1,5 @@
+in each case assume n = number of elements in the input array
+
 Bubble-Sort
 Description = we find let the minimum bubble its way through the array to the begining of the list.
 We repeat this process on the remaining array not counting the already found minimums.
@@ -21,8 +23,7 @@ Complexity = O(n^2)
 Pros = simple implementation, in most cases faster than bubble-sort and select-sort
 Cons = on large datasets it is vastly outperformed by merge-sort, heap-sort, quick-sort
 
-These three algorithms are easy to understand and the sorting takes place within the same array meaning no additional memory allocation is
-necessary
+These three algorithms are easy to understand but are noticeable slower than the following three algorithms
 
 Quick-Sort
 Description = we pick a random element, pivot, and divide the input array into three smaller arrays.
@@ -30,5 +31,15 @@ First array is of elements smaller than pivot, Than array full of elements equal
 elements greater than pivot. We call recursively the method on the lesser and greater arrays and
 return [sorted(lesserArray), equalArray, sorted(greaterArray)]
 Complexity = O(n*logn) (avarage time complexity, assuming we can find median linearly)
-Pros = fast
-Cons = harder to implement from basic data structures
+Pros = fast, when implemented well, it can be two/thre times faster than heapsort or mergesort
+Cons = harder to implement from basic data structures, worst case scenario has complexity O(n^2), however, this occasion is rare
+
+Heap-Sort
+Description = we can think of it as an improved select-sort but instead of going through the whole array,
+heap-sort is able to extract the next minimum in logarithmic time using a data structure called Heap.
+In the begining, we build a max-heap, and then in each iteration we extract the maximum, and rebuild it.
+Each iteration takes O(log(n)) time
+Complexity = O(n*log(n)) (worst case scenario)
+Pros = fast and sorting takes place within the array;
+Cons = harder to implement, knowledge of heap is needed;
+

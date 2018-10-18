@@ -63,6 +63,32 @@ public class Sorter<T> {
     return result;
   }
 
+  public T[] heapSort(T[] input){
+    T[] result = input.clone();
+    result = buildMaxHeap(result);
+    for(int k = result.length - 1; k > 0; k++){
+      T temp = result[0];
+      result[0] = result[k];
+      result[k] = temp;
+      result = heapify(result,k-1);
+    }
+
+    return result;
+
+  }
+
+  //heap sort helper methods beginning
+  public T[] buildMaxHeap(T[] input){
+    //to be implemented
+    return null;
+  }
+
+  public T[] heapify(T[] input, int index){
+    //to be implemented
+    return null;
+  }
+  //heap sort helper methods end
+
 
   public T[] quickSort(T[] input){
     T[] result = input.clone();

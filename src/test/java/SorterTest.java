@@ -33,7 +33,18 @@ public class SorterTest {
 
   @Test
   public void quickSortTest() throws Exception {
-    assertWithImplementation("Quick-Sort Tesk: ", sorter::quickSort, expectedSortedArray);
+    assertWithImplementation("Quick-Sort Test: ", sorter::quickSort, expectedSortedArray);
+  }
+
+  @Test
+  public void heapSortTest() throws Exception {
+    assertWithImplementation("Heap-Sort Test: ", sorter::heapSort, expectedSortedArray);
+  }
+
+  @Test
+  public void buildHeapTest() throws Exception {
+    Integer[] array = {1,3,5,2,1,1,4,5,6,7,8,2,3};
+
   }
 
   @Test
